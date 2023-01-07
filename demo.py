@@ -1,5 +1,5 @@
 import cohere
-co = cohere.Client('ABzZ8IBzGxi8n5t7ZfqdCuU99kxlsChGKCyuDpXd')
+co = cohere.Client('')
 def write_post(topic):
   response = co.generate(
   model='command-xlarge-20221108',
